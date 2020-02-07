@@ -68,7 +68,6 @@ a{
 
 .sidebar1 .text{
     display: flex;
-    // position: relative;
     -ms-flex-direction: column;
     flex-direction: column;
     -ms-flex-pack: justify;
@@ -83,16 +82,16 @@ a{
     -ms-flex-direction: column;
     flex-direction: column;
 
-}
+    &.bg-image .image{
+        display: flex;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        background-repeat: no-repeat;
+        background-position: center;
+        justify-content: center;
+        background-size: cover;
+    }
 
-.sidebar1 .bg-image .image{
-    display: flex;
-    -ms-flex-positive: 1;
-	flex-grow: 1;
-	background-repeat: no-repeat;
-    background-position: center;
-    justify-content: center;
-	background-size: cover;
 }
 
 .form {
@@ -109,16 +108,15 @@ a{
     border-bottom-right-radius: 30px;
 }
 
-.signup_form{
-    position: relative;
+.form-link{
     display: flex;
-    -ms-flex-pack: end;
+    -ms-flex-pack: right;
     justify-content: right;
-    -ms-flex-align: center;
-    align-items: center;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
     -ms-flex-positive: 0;
     flex-grow: 0;
-    padding: 30px 30px 0 30px;
+    padding: 30px 30px 0 630px;
 }
 
 .form-link a{
@@ -146,14 +144,14 @@ a{
     background-color: lightgrey;
     color: #767676;
     padding: 2%;
+    margin-top: 5%;
     border-radius: 15%;
-    margin-left: 2%;
 }
 
 .fa-facebook-square{
     color: #767676;
     background-color: lightgrey;
     padding: 2%;
+    margin-top: 5%;
     border-radius: 15%;
-    margin-left: 2%;
 }
