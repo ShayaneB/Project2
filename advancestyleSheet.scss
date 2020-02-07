@@ -81,8 +81,9 @@ a{
     padding: 5% 8% 0;
     -ms-flex-direction: column;
     flex-direction: column;
+    }
 
-    &.bg-image .image{
+.sidebar1 .bg-image .image{
         display: flex;
         -ms-flex-positive: 1;
         flex-grow: 1;
@@ -91,8 +92,6 @@ a{
         justify-content: center;
         background-size: cover;
     }
-
-}
 
 .form {
     width: 100%;

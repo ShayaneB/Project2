@@ -70,14 +70,15 @@ a {
   padding: 5% 8% 0;
   -ms-flex-direction: column;
   flex-direction: column; }
-  .sidebar1 header.bg-image .image {
-    display: flex;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    background-repeat: no-repeat;
-    background-position: center;
-    justify-content: center;
-    background-size: cover; }
+
+.sidebar1 .bg-image .image {
+  display: flex;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  background-size: cover; }
 
 .form {
   width: 100%;
