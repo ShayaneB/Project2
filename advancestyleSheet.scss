@@ -125,26 +125,35 @@ a{
     color: blue;
 }
 
-.form_heading{
-    padding: 50px 150px 0;
+.container{
+    padding: 7% 30% 0 20%;
+    margin: 0;
+}
+
+.signup_btn a{
+    text-decoration: none;
 }
 
 .fa-google{    
     background-color: #4384f5;
     color: white;
     padding: 2%;
+    margin-top: 5%;
+    border-radius: 7%;
 }
 
 .fa-twitter{
     background-color: lightgrey;
     color: #767676;
-    padding: 1%;
+    padding: 2%;
     border-radius: 15%;
+    margin-left: 2%;
 }
 
 .fa-facebook-square{
     color: #767676;
     background-color: lightgrey;
-    padding: 1%;
+    padding: 2%;
     border-radius: 15%;
+    margin-left: 2%;
 }
