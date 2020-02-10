@@ -126,7 +126,7 @@ a {
   color: white;
   padding: 3%;
   margin-top: 5%;
-  border-radius: 6%; }
+  border-radius: 6px; }
 
 .fa-twitter {
   background-color: lightgrey;
@@ -173,7 +173,12 @@ hr.divider:after {
   width: 50%; }
 
 input {
-  margin-bottom: 4%; }
+  margin-bottom: 4%;
+  border-radius: 5px;
+  height: 30px;
+  box-shadow: none;
+  background-color: #ece9e9;
+  border: hidden; }
 
 #fullname input {
   width: 90%; }
@@ -190,16 +195,18 @@ input {
 #terms_condtns {
   margin-bottom: 3%; }
 
+#terms_condtns label {
+  line-height: normal; }
+
 #terms_condtns a {
   color: #0c95d4;
-  text-decoration: none;
-  line-height: normal; }
+  text-decoration: none; }
 
 .button {
   background-color: #ea4c88;
   padding: 2% 15%;
   border: none;
-  border-radius: 8%;
+  border-radius: 6px;
   color: white; }
 
 /*# sourceMappingURL=advanceStyleSheet.css.map */
