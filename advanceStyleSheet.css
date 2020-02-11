@@ -225,4 +225,19 @@ input[type="checkbox"] {
   color: white;
   max-width: 200px; }
 
+@media (max-width: 85.4rem) and (min-width: 64rem) {
+  .form-link {
+    float: right;
+    padding: 10% 20% 0 35%; }
+
+  .signup_btn span.btn_text {
+    margin-left: 0.5rem;
+    padding: 0; }
+
+  .fa-twitter {
+    margin-left: 0.2rem; }
+
+  .fa-facebook-square {
+    margin-left: 0.2rem; } }
+
 /*# sourceMappingURL=advanceStyleSheet.css.map */
