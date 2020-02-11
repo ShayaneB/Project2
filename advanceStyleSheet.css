@@ -161,18 +161,15 @@ hr.divider:after {
   padding: 0 16px;
   background: white; }
 
+.details_form {
+  display: grid;
+  grid-template-columns: 14rem auto; }
+
 .details_form label {
   font-weight: bold; }
 
-#fullname {
-  float: left;
-  width: 50%; }
-
-#username {
-  float: right;
-  width: 50%; }
-
 input {
+  display: grid;
   margin-bottom: 4%;
   border-radius: 5px;
   height: 30px;
@@ -183,28 +180,37 @@ input {
 #fullname input {
   width: 90%; }
 
-#username input {
-  width: 100%; }
-
+#email_id,
 #email_id input {
-  width: 100%; }
+  display: grid;
+  width: 100%;
+  grid-column: span 2; }
 
+#pswd,
 #pswd input {
-  width: 100%; }
+  display: grid;
+  width: 100%;
+  grid-column: span 2; }
 
 #terms_condtns {
-  margin-bottom: 3%; }
+  display: grid; }
 
 #terms_condtns label {
-  line-height: normal; }
+  display: grid;
+  grid-column: span 2;
+  font-weight: normal;
+  font-size: 15px; }
 
 #terms_condtns a {
   color: #0c95d4;
   text-decoration: none; }
 
+.sign_up_btn {
+  display: grid; }
+
 .button {
   background-color: #ea4c88;
-  padding: 2% 15%;
+  padding: 10px 35px 25px 30px;
   border: none;
   border-radius: 6px;
   color: white; }
