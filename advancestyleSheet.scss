@@ -134,7 +134,7 @@ a{
 }
 
 .signup_btn span.btn_text{
-    margin-left: 2rem;
+    margin-left: 1rem;
     background-color: #4384f5;
     color: white;
     padding: 10px 40px;
@@ -188,6 +188,7 @@ hr.divider:after {
 .details_form{
     display: grid;
     grid-template-columns: 14rem auto;
+    grid-row-gap: 1rem;
 }
 
 .details_form label{
@@ -196,7 +197,7 @@ hr.divider:after {
 
 input{
     display: grid;
-    margin-bottom: 4%;
+    // margin-bottom: 4%;
     border-radius: 5px;
     height: 30px;
     box-shadow: none;
@@ -204,8 +205,13 @@ input{
     border: hidden;
 }
 
+input[type="checkbox"]{
+    height: 20px;
+    margin-right: 8px;
+}
+
 #fullname input{
-    width: 90%;
+    width: 95%;
 }
 
 #username input{
@@ -227,14 +233,19 @@ input{
 }
 
 #terms_condtns{ 
-    display: grid;
+    display: flex;
+    padding-right: 0;
+    margin-bottom: 3%;
+    margin-top: 0.94rem;
 }
 
 #terms_condtns label{
-    display: grid;
-    grid-column: span 2;
+    display: inline;
     font-weight: normal;    
     font-size: 15px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    // width: 98%;
 }
 
 #terms_condtns a{
@@ -242,14 +253,12 @@ input{
     text-decoration: none;
 }
 
-.sign_up_btn{
-    display: grid;
-}
-
 .button{
+    width: 100%;
+    text-align: center;
     background-color: #ea4c88;
-    padding: 10px 35px 25px 30px;
-    border: none;
+    padding: 10px 35px 28px 30px;
     border-radius: 6px;
     color: white;
+    max-width: 200px;
 }
