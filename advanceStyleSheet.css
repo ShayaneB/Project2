@@ -107,7 +107,7 @@ a {
   color: blue; }
 
 .container {
-  padding: 5% 30% 0 20%;
+  padding: 5% 20% 0 20%;
   margin: 0; }
 
 .signup_btn a {
@@ -119,7 +119,7 @@ a {
   margin-left: 1rem;
   background-color: #4384f5;
   color: white;
-  padding: 10px 40px; }
+  padding: 0.6rem 6.5rem; }
 
 .fa-google {
   background-color: #4384f5;
@@ -163,7 +163,7 @@ hr.divider:after {
 
 .details_form {
   display: grid;
-  grid-template-columns: 14rem auto;
+  grid-template-columns: 12rem auto;
   grid-row-gap: 1rem; }
 
 .details_form label {
@@ -241,6 +241,15 @@ input[type="checkbox"] {
     margin-left: 0.2rem; }
 
   .sidebar1 {
-    width: 40%; } }
+    width: 40%; }
+
+  .sidebar1 header {
+    padding: 0 auto; }
+
+  .image {
+    width: 70%; }
+
+  .signup_btn span.btn_text {
+    padding: 0; } }
 
 /*# sourceMappingURL=advanceStyleSheet.css.map */
