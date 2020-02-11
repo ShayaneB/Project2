@@ -180,6 +180,9 @@ input {
 #fullname input {
   width: 90%; }
 
+#username input {
+  width: 100%; }
+
 #email_id,
 #email_id input {
   display: grid;
