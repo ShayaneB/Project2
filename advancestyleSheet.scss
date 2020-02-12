@@ -120,6 +120,7 @@ a{
 
 .form-link a{
     color: #0c95d4;
+    text-decoration: none;
 }
 
 .container{
@@ -273,11 +274,11 @@ input[type="checkbox"]{
     }
 
     .fa-twitter{
-        margin-left: 0.2rem;
+        margin-left: 0.1rem;
     }
 
     .fa-facebook-square{
-        margin-left: 0.2rem;
+        margin-left: 0.1rem;
     }
 
     .sidebar1{
@@ -290,9 +291,5 @@ input[type="checkbox"]{
 
     .image{
         width: 70%;
-    }
-
-    .signup_btn span.btn_text{
-        padding: 0;
     }
 }
