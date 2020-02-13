@@ -117,10 +117,9 @@ a {
   font-weight: 600; }
 
 .signup_btn span.btn_text {
-  margin-left: 1rem;
   background-color: #4384f5;
   color: white;
-  padding: 0.6rem 6.5rem; }
+  padding-left: 1rem; }
 
 .fa-google {
   background-color: #4384f5;
