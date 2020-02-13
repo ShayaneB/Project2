@@ -249,5 +249,9 @@ input[type="checkbox"] {
 
   .image {
     width: 70%; } }
+@media (max-width: 90rem) {
+  .signup_btn span.btn_text {
+    margin-left: 0.1rem;
+    padding: 0; } }
 
 /*# sourceMappingURL=advanceStyleSheet.css.map */
